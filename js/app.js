@@ -7,9 +7,9 @@ function createTable() {
 }
 
 const pathName = window.location.pathname;
-if (pathName === "/index.html" || pathName === "/") {
+if (pathName === "/debuggingTest/index.html" || pathName === "/debuggingTest/") {
   locationInfo();
-} else if (pathName === "/sales.html") {
+} else if (pathName === "/debuggingTest/sales.html") {
   createTable();
 }
 
