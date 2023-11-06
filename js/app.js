@@ -14,4 +14,3 @@ if (pathName === "/debuggingTest/index.html" || pathName === "/debuggingTest/") 
 }
 
 console.log(pathName);
-alert(pathName);
